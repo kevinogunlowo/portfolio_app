@@ -103,7 +103,7 @@ export const Contact = () => {
           <a href="mailto:kevinogunlowo273@gmail.com">Kevinogunlowo273@gmail.com</a>
         </li>
         <li className={styles.linkItem}>
-          <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" />
+          <img src={getImageUrl("contact/linkedinIcon.png /contact/linkedinIcon.png")} alt="LinkedIn icon" />
           <a href="https://www.linkedin.com/in/kevin-ogunlowo/">linkedin.com/myname</a>
         </li>
         <li className={styles.linkItem}>

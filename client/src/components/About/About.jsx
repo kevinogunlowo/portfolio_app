@@ -9,13 +9,13 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("hero/herroImage.png")}
+          src={getImageUrl("../assests/hero/herroImage.jpg")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("../assests/about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>About me</h3>
               <p>
@@ -28,7 +28,7 @@ export const About = () => {
               {/* Link to document */}
               <p>
                 You can view my detailed resume or portfolio by 
-                <a href={getImageUrl("hero/Resume.pdf")} target="_blank" rel="noopener noreferrer">
+                <a href={getImageUrl("../assests/hero/Resume.pdf")} target="_blank" rel="noopener noreferrer">
                   clicking here
                 </a>.
               </p>
