@@ -9,5 +9,12 @@ export default defineConfig({
       localConvention: "camelCase",
     },
 },
+build: {
+  rollupOptions: {
+    external: [ '../../data/skills.json' ]
+  }
+}
 }
 )
+
+
