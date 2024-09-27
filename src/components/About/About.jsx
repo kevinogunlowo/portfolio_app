@@ -19,8 +19,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>About me</h3>
               <p>
-              Hello! My name is Kevin Ogunlowo, and I’m a passionate developer
-            and designer. I specialize in creating responsive and user-friendly
+            My name is Kevin Ogunlowo, and I’m a passionate software engineer
+            .I specialize in creating responsive and user-friendly
             applications with a focus on clean, modern design and robust
             functionality. I’m always eager to learn new technologies and
             improve my skills to deliver high-quality work.

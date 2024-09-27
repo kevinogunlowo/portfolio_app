@@ -1,5 +1,6 @@
 @import "../../vars.css";
 
+/* Main container */
 .container {
   color: var(--color-text);
   margin-top: 120px;
@@ -12,6 +13,7 @@
   gap: 10px;
 }
 
+/* Text styling */
 .text h2 {
   font-size: 80px;
   font-weight: 700;
@@ -24,6 +26,7 @@
   letter-spacing: 2px;
 }
 
+/* Links styling */
 .links {
   display: flex;
   flex-direction: column;
@@ -46,20 +49,57 @@
   letter-spacing: 1.5px;
 }
 
+/* Responsive Design for Screens Smaller than 830px */
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column;
-    gap: 23px;
+    flex-direction: column;  /* Stack elements vertically */
+    gap: 23px;               /* Increase gap between sections */
+    padding: 30px 5%;        /* Adjust padding for smaller screens */
   }
 
   .text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;     /* Center text on smaller screens */
+  }
+
+  .text h2 {
+    font-size: 50px;         /* Reduce title font size */
+    letter-spacing: 2px;     /* Adjust letter spacing */
+  }
+
+  .text p {
+    font-size: 25px;         /* Reduce paragraph font size */
+    letter-spacing: 1px;     /* Adjust letter spacing */
+    text-align: center;      /* Center-align the paragraph */
   }
 
   .links {
-    align-items: center;
+    align-items: center;     /* Center-align links on smaller screens */
+  }
+
+  .link a {
+    font-size: 24px;         /* Reduce font size for links */
+    letter-spacing: 1px;     /* Adjust letter spacing */
   }
 }
 
+/* Extra Small Screen Styling (below 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 80px;        /* Adjust top margin for mobile */
+    padding: 20px 3%;        /* Reduce padding for mobile */
+  }
+
+  .text h2 {
+    font-size: 40px;         /* Smaller title font for mobile */
+  }
+
+  .text p {
+    font-size: 20px;         /* Smaller paragraph font for mobile */
+  }
+
+  .link a {
+    font-size: 18px;         /* Smaller link font size */
+  }
+}

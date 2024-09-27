@@ -1,27 +1,24 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Personal planner app.",
+      "imageSrc": "projects/notesApp.png",
+      "description": "This is a mobile application that stores user notes in a repository.",
+      "skills": ["Flutter", "Dart"],
+      "source": "https://github.com/kevinogunlowo/Todolist-app"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "E-commerce app",
+      "imageSrc": "projects/ecommerceApp.png",
+      "description": "This is an Ecommerce application used to shop.",
+      "skills": ["Flutter", "Dart"],
+      "source": "https://github.com/kevinogunlowo/Nike-Store"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Wallet App",
+      "imageSrc": "projects/walletApp.png",
+      "description": "This is a project made to display users economic identity.",
+      "skills": ["Flutter", "Dart"],
+      "source": "https://github.com/kevinogunlowo/wallet-app-ui"
     }
   ]
   
